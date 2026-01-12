@@ -40,6 +40,12 @@
 - Link: <https://builder.io/>
 - Best one I found.
 - Pricing: <https://builder.io/account/subscription>
-- Example: Index.html , styles.css , and the README.md
 - Open the plugin in figma, select the layers we want, copy the command, and run in project.
-- There will be prompt that allow us to specify how we want them to export the design. (To HTML/CSS or other frameworks)
+- Two options
+  - Smart Export.
+    - There will be prompt that allow us to specify how we want them to export the design. (To HTML/CSS or other frameworks)
+    - Example: builder-first-example
+  - Classic Export
+    - Easy Mode: For simple designs; doesn't require much setup.
+    - Precise Mode: Requires perfect Auto Layout. If your Auto Layout is perfect, this gives you pixel-perfect results that match your structure 1:1.
+    - Example: builder-second-example

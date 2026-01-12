@@ -1,0 +1,678 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    line-height: 1.5;
+}
+
+/* Page Container */
+.page-container {
+    background-color: rgba(251, 242, 225, 1);
+    overflow: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    min-height: 851px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 29px 70px 707px;
+}
+
+.hero-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Header */
+.main-header {
+    position: relative;
+    border-radius: 58px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: -141px;
+    width: 1280px;
+    max-width: 100%;
+    padding: 7px 58px 0;
+    border: 3px solid rgba(18, 89, 133, 1);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(0, 0, 140, 1);
+    white-space: nowrap;
+    margin: auto 0;
+    font: 600 15px/20px 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.logo-icon {
+    aspect-ratio: 0.98;
+    object-fit: contain;
+    object-position: center;
+    width: 62px;
+    flex-shrink: 0;
+}
+
+.company-name {
+    margin: auto 0;
+}
+
+/* Navigation */
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: auto 0;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    letter-spacing: 0.75px;
+    font: 600 15px 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.nav-button {
+    border-radius: 8px;
+    background-color: rgba(18, 89, 133, 1);
+    padding: 3px 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Contact */
+.header-contact {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.phone-section {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: rgba(66, 66, 66, 1);
+    font: 400 38px 'DIN-Bold', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.phone-icon {
+    aspect-ratio: 1.76;
+    object-fit: contain;
+    object-position: center;
+    width: 44px;
+    flex-shrink: 0;
+    margin: auto 0;
+}
+
+.phone-number {
+    flex-grow: 1;
+    width: 230px;
+}
+
+.contact-buttons {
+    display: flex;
+    align-items: stretch;
+    gap: 9px;
+    margin-top: 5px;
+    font: 600 12px/14px 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.line-contact {
+    border-radius: 0 0 14px 14px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.6px;
+    padding: 15px 19px;
+    border: 3px solid rgba(18, 89, 133, 1);
+}
+
+.line-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+    flex-shrink: 0;
+}
+
+.contact-text {
+    line-height: 1.2;
+}
+
+.reservation-button {
+    border-radius: 14px 14px 0 0;
+    background-color: rgba(206, 20, 31, 1);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: #FFF;
+    justify-content: center;
+    padding: 14px 23px;
+}
+
+.reservation-text {
+    line-height: 1.2;
+}
+
+/* Property Categories */
+.property-categories {
+    display: flex;
+    margin-top: 134px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    justify-content: start;
+}
+
+.categories-container {
+    border-radius: 30px;
+    background-color: rgba(255, 249, 238, 1);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3px 80px;
+    border: 3px solid rgba(18, 89, 133, 1);
+    width: 1618px;
+    max-width: 100%;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    margin: auto 0;
+}
+
+.category-icon {
+    object-fit: contain;
+    object-position: center;
+    max-width: 100%;
+    align-self: center;
+}
+
+.category-title {
+    color: rgba(66, 66, 66, 1);
+    font-size: 26px;
+    letter-spacing: 1.3px;
+    align-self: center;
+    margin-top: 7px;
+}
+
+.category-description {
+    color: rgba(111, 120, 126, 1);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.category-button {
+    border-radius: 60px;
+    background-color: rgba(18, 89, 133, 1);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.9px;
+    justify-content: space-between;
+    padding: 7px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.category-divider {
+    width: 1px;
+    flex-shrink: 0;
+    height: 431px;
+    border: 1px dashed rgba(176, 176, 176, 1);
+}
+
+.arrow-icon {
+    aspect-ratio: 0.56;
+    object-fit: contain;
+    object-position: center;
+    width: 9px;
+    border-radius: 1px;
+    flex-shrink: 0;
+    margin: auto 0;
+}
+
+/* Event Section */
+.event-section {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    min-height: 580px;
+    width: 100%;
+    align-items: end;
+    padding: 22px 80px 57px;
+    margin-top: 134px;
+    background-image: url('https://api.builder.io/api/v1/image/assets/TEMP/976949568612adfb11982343bf5ce29766495ee7?placeholderIfAbsent=true');
+    background-size: cover;
+    background-position: center;
+}
+
+.event-content {
+    position: relative;
+    width: 521px;
+    max-width: 100%;
+}
+
+.event-badge-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.event-title-main {
+    background-color: rgba(18, 89, 133, 1);
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+    gap: 10px;
+    color: rgba(240, 206, 0, 1);
+    white-space: nowrap;
+    letter-spacing: 9.12px;
+    width: 100%;
+    justify-content: center;
+    padding: 0 10px;
+    font: 600 76px/2 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.event-badge {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 147px;
+    flex-shrink: 0;
+    max-width: 100%;
+}
+
+.event-title-sub {
+    background-color: rgba(18, 89, 133, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(240, 206, 0, 1);
+    white-space: nowrap;
+    letter-spacing: 9.12px;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 15px;
+    font: 600 76px/2 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.event-message {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 19px;
+    font: 600 20px/1 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.event-button {
+    border-radius: 60px;
+    background-color: rgba(18, 89, 133, 1);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 382px;
+    max-width: 100%;
+    align-items: stretch;
+    gap: 20px;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.9px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 7px 29px;
+    border: none;
+    cursor: pointer;
+    font: 600 18px 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+/* Logo Banner */
+.logo-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 0 121px;
+}
+
+.logo-banner img {
+    aspect-ratio: 1.56;
+    object-fit: contain;
+    object-position: center;
+    width: 1274px;
+    border-radius: 0;
+    max-width: 100%;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 1618px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title-main {
+    color: rgba(66, 66, 66, 1);
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.contact-intro {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.contact-methods {
+    border-radius: 30px;
+    background-color: rgba(255, 249, 238, 1);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-top: 30px;
+    min-height: 311px;
+    align-items: center;
+    gap: 141px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 0 140px;
+    border: 3px solid rgba(18, 89, 133, 1);
+    font: 600 20px 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.contact-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    margin: auto 0;
+}
+
+.contact-method img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.contact-method-text {
+    margin-top: 23px;
+}
+
+.contact-divider-vertical {
+    width: 1px;
+    flex-shrink: 1;
+    height: 307px;
+    margin: auto 0;
+    border: 1px dashed rgba(176, 176, 176, 1);
+}
+
+.business-hours {
+    border-radius: 10px;
+    background-color: rgba(253, 210, 62, 1);
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 10px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 40px;
+    justify-content: center;
+    padding: 10px 90px;
+    font: 600 20px 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+/* Footer */
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 78px;
+    width: 100%;
+}
+
+.footer-top {
+    border-radius: 577px 577px 0 0;
+    background-color: rgba(255, 249, 238, 1);
+    display: flex;
+    width: 100%;
+    max-width: 1618px;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 37px 3px;
+    margin: 0 auto;
+}
+
+.footer-logo-container {
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 10;
+    display: flex;
+    width: 151px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 151px;
+    padding: 0 16px;
+}
+
+.footer-logo {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.footer-company-name {
+    color: rgba(18, 89, 133, 1);
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: -7px;
+    font: 600 40px 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.footer-background {
+    aspect-ratio: 1.86;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 343px 343px 0 0;
+    margin-top: 25px;
+}
+
+.footer-bottom {
+    background-color: rgba(18, 89, 133, 1);
+    display: flex;
+    min-height: 98px;
+    width: 100%;
+    align-items: center;
+    gap: 100px;
+    font-family: 'FOT-Seurat ProN', -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 26px 30px;
+}
+
+.copyright {
+    color: #FFF;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    white-space: nowrap;
+    letter-spacing: 3.2px;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(18, 89, 133, 1);
+    text-decoration: none;
+    padding: 5px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .hero-section {
+        padding: 0 20px 100px;
+    }
+
+    .main-header {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .header-left,
+    .main-nav,
+    .header-contact {
+        margin-top: 40px;
+        white-space: initial;
+    }
+
+    .phone-number {
+        font-size: 40px;
+    }
+
+    .property-categories {
+        margin-top: 40px;
+    }
+
+    .categories-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .category-card {
+        margin-top: 40px;
+        white-space: initial;
+    }
+
+    .category-divider {
+        display: none;
+    }
+
+    .event-section {
+        margin-top: 40px;
+        padding: 100px 20px 0;
+    }
+
+    .event-title-main,
+    .event-title-sub {
+        font-size: 40px;
+        white-space: initial;
+    }
+
+    .event-button {
+        margin-top: 40px;
+        padding: 0 20px;
+        white-space: initial;
+    }
+
+    .logo-banner {
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+
+    .contact-section {
+        margin-top: 40px;
+    }
+
+    .contact-methods {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .contact-divider-vertical {
+        display: none;
+    }
+
+    .business-hours {
+        margin-top: 40px;
+        padding: 10px 20px;
+    }
+
+    .main-footer {
+        margin-top: 40px;
+    }
+
+    .footer-top {
+        padding: 0 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        white-space: initial;
+    }
+}
