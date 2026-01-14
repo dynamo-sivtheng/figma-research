@@ -19,15 +19,14 @@
   - Clean code (HTML and Tailwind) (Speed: 10-15 minutes)
     - Preview: <https://dev.animaapp.com/chat/mkakd5zhqx6owz>
 
-![Anima Pricing Plans](anima-plan.png)
+- Pricing: <https://dev.animaapp.com/pricing>
 
 ## Locofy
 
 - Link: <https://www.locofy.ai/>
 - No Free Test.
 - They say it has the cleanest code when generating to HTML but cannot verify yet.
-
-![Locofy Pricing Plans](locofy-plan.png)
+- Pricing: <https://www.locofy.ai/pricing>
 
 ## Figma to Code Plugin
 
