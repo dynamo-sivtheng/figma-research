@@ -29,7 +29,7 @@
 
 ![Locofy Pricing Plans](locofy-plan.png)
 
-## Figma to Code (HTML, Tailwind, Flutter, SwiftUI)
+## Figma to Code Plugin
 
 - Figma Plugin
 - Example: figma-to-code-plugin.html
@@ -38,7 +38,6 @@
 ## Builder.io
 
 - Link: <https://builder.io/>
-- Best one I found.
 - Pricing: <https://builder.io/account/subscription>
 - Open the plugin in figma, select the layers we want, copy the command, and run in project.
 - Two options
@@ -49,3 +48,9 @@
     - Easy Mode: For simple designs; doesn't require much setup.
     - Precise Mode: Requires perfect Auto Layout. If your Auto Layout is perfect, this gives you pixel-perfect results that match your structure 1:1.
     - Example: builder-second-example
+
+## Codia.ai
+- Link: <https://codia.ai/design-to-code> 
+- I prompted them to use basic HTML/CSS but they created using react anyway.
+- Pricing: <https://codia.ai/pricing>
+- Example: House21 Real Estate Website.zip
